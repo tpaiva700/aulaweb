@@ -1,0 +1,49 @@
+body{
+    background-color: #D4E6F1;
+    margin: 0;
+    padding: 0;
+}
+
+.topo{
+    /*Testando topo fixo */
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    background-color: #7FB3D5  ;
+    color: black;
+    align-items: flex-end;
+    padding: 10px;
+    text-align: center;
+}
+
+.topo nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+h1{
+    color: rgb(20, 7, 7);
+}
+
+.container{
+    padding-top: 50px;
+    padding: 50px;
+    margin: 100px;
+    
+}
+
+
+img{
+    border-radius: 15%;
+}
+
+footer{
+    position: relative;
+    right: 0;
+    left: 0;
+    background-color: rgb(6, 17, 17);
+    color: wheat;
+    text-align: center;
+}
